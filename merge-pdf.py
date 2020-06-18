@@ -1,6 +1,7 @@
 import os
 import datetime
 import pathlib
+from time import time
 from PyPDF2 import PdfFileMerger
 
 
@@ -13,7 +14,7 @@ def all_files(directory):
 if __name__ == '__main__':
     s = input("Dir: ")
     rootDir = s.strip('\"')
-    print('Processing...')
+    start = time()
 
     todaydetail = datetime.datetime.today()
     datetime = todaydetail.strftime("%Y%m%d%H%M%S")
@@ -34,4 +35,5 @@ if __name__ == '__main__':
     merger.write(resultFile)
     merger.close()
 
-    print('\nDone!\n')
+    print('\nDone!')
+    print('{}s'.format(time() - start))
