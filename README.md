@@ -12,3 +12,6 @@ The files are merged in name order.
 $ merge-pdf.py
 Dir: <Specify the directory containing the PDF you want to merge>
 ```
+
+## License
+MIT
