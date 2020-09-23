@@ -15,3 +15,6 @@ Dir: <Specify the directory containing the PDF you want to merge>
 
 ## License
 MIT
+
+## Author  
+Kenta Goto
