@@ -13,6 +13,9 @@ $ merge-pdf.py
 Dir: <Specify the directory containing the PDF you want to merge>
 ```
 
+## Requirements  
+- Windows  
+
 ## License
 MIT
 
