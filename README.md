@@ -14,7 +14,7 @@ Dir: <Specify the directory containing the PDF you want to merge>
 ```
 
 ## Requirements  
-- Windows  
+- Python3  
 
 ## License
 MIT
